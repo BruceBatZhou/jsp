@@ -1,0 +1,168 @@
+.clearBoth {
+    clear: both;
+}
+
+li,
+ul {
+    list-style: none;
+    padding: 0
+}
+
+.container {
+    margin: 0 auto;
+    width: 1100px;
+    height: 850px;
+    background-color: #CCC;
+}
+
+.banner {
+    height: 124px;
+    background-color: #FFF;
+    background-image: url(./img/banner.png);
+}
+
+.banner #scLogo {
+    height: 100px;
+    padding: 12px;
+}
+
+.banner #webFE {
+    height: 100px;
+    padding: 12px;
+    float: right;
+}
+
+.navigator {
+    background-color: #4276e6;
+    height: 100px;
+    margin-top: 3px;
+}
+
+.navigator .navi_list {
+    margin: 0 25px;
+}
+
+.navigator .navi_list li {
+    width: 150px;
+    height: 72px;
+    background: #37b6ff;
+    border: 4px solid rgb(15, 95, 119);
+    border-radius: 20px;
+    transition: all 0.25s;
+
+    margin-right: 65px;
+    margin-top: 10px;
+    float: left;
+
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navigator .navi_list li:hover {
+    margin-top: 14px;
+    background: #3698da;
+    transition: all 0.25s;
+}
+
+.navigator .navi_list li:last-child {
+    margin-right: 0;
+}
+
+.navigator .navi_list li .navi_button {
+    display: block;
+    height: 72px;
+    line-height: 72px;
+    color: black;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.navigator .navi_list li .navi_button:hover {
+    color: red;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.focus {
+    height: 300px;
+    background-color: #EEE;
+    padding: 4px 0;
+}
+
+.focus .focus_left {
+    width: 60%;
+    height: 99%;
+    background-color: #CCC;
+    float: left;
+}
+
+.focus .focus_right {
+    width: 39%;
+    height: 99%;
+    background-color: #CCC;
+    float: right;
+}
+
+.content {
+    margin-top: 3px;
+}
+
+.content .content_left {
+    float: left;
+    width: 147px;
+    height: 604px;
+    background-color: #ffffff70;
+}
+
+.content .content_center {
+    float: left;
+    width: 800px;
+    height: 600px;
+    background-image: url(img/bg.png);
+}
+
+.content .content_center #centerFrame {
+    border: 2px solid black;
+}
+
+.content .content_right {
+    float: right;
+    width: 147px;
+    height: 604px;
+    background-color: #ffffff70;
+}
+
+.footerDiv {
+    width: 100%;
+    height: 20px;
+    background-color: #4d9eeb;
+    margin-top: 3px;
+}
+
+
+.tasd {
+    border: 4px solid black;
+    border-collapse: collapse;
+}
+
+.tasd .ttd {
+    border: 2px solid blue;
+    padding-left: 10px;
+    width: 300px;
+}
+
+/* .tt {
+    border: 4px solid black;
+    border-collapse: collapse;
+}
+
+.ttr {
+    border: 4px dashed blue;
+}
+
+.ttd {
+    border: 1px dashed blue;
+    padding: 10px;
+} */
